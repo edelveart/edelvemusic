@@ -85,7 +85,7 @@ header > img {
 }
 
 header > h1 {
-  font-size: 1em;
+  font-size: 0.75em;
   font-weight: 700;
   border-radius: 5em;
   border: 1px solid rgba(228, 198, 198, 0.667);
@@ -97,7 +97,7 @@ header > h1 {
 }
 
 header span {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
