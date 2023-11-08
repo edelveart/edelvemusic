@@ -1,147 +1,147 @@
 :root {
-    --color: #fff0f5;
+  --color: #fff0f5;
 }
 
 @font-face {
-    font-family: Iosevka;
-    src: url(images/iosevka-extended.ttf);
+  font-family: Iosevka;
+  src: url(images/iosevka-extended.ttf);
 }
 
 body,
 html {
-    margin: 0cm;
-    padding: 0;
-    font-family: Iosevka;
-    scroll-behavior: smooth;
-    /* min-height: 100vh; */
+  margin: 0cm;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: Iosevka;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-image: url('images/pexel-j-w.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-    overflow-x: hidden;
+  background-image: url('images/pexel-j-w.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 main {
-    position: relative;
+  position: relative;
 }
 
 header {
-    margin-top: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav {
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px) saturate(180%) contrast(220%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
-    padding: 0.25em;
-    z-index: 1;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  padding: 0.25em;
+  z-index: 1;
 }
 
 nav img {
-    padding: 0;
-    margin: 0;
-    width: 30px;
-    height: 30px;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
 }
 
 .latex {
-    width: 60px;
-    height: 26px;
+  width: 60px;
+  height: 26px;
 }
 .reaper {
-    width: 30px;
-    height: 31px;
+  width: 30px;
+  height: 31px;
 }
 .geogebra {
-    width: 34px;
-    height: 34px;
+  width: 34px;
+  height: 34px;
 }
 
 header > img {
-    margin-top: 1em;
-    width: 5.5rem;
-    border-radius: 50%;
-    border: 1px solid rgba(228, 198, 198, 0.6);
-    backdrop-filter: blur(10px) saturate(180%) contrast(220%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  margin-top: 1em;
+  width: 5.5rem;
+  border-radius: 50%;
+  border: 1px solid rgba(228, 198, 198, 0.6);
+  backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
 }
 
 header > h1 {
-    font-size: 1.1rem;
-    font-weight: 400;
-    border-radius: 0.5rem;
-    border: 1px solid rgba(228, 198, 198, 0.667);
-    background-color: rgb(255, 250, 255, 0.35);
-    color: var(--color);
-    padding: 0.5em 0.5em;
-    backdrop-filter: blur(10px) saturate(180%) contrast(220%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(228, 198, 198, 0.667);
+  background-color: rgb(255, 250, 255, 0.35);
+  color: var(--color);
+  padding: 0.5em 0.5em;
+  backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
 }
 
 header span {
-    font-size: 0.75rem;
-    font-weight: 400;
+  font-size: 0.75rem;
+  font-weight: 400;
 }
 
 ul {
-    box-sizing: border-box;
-    list-style: none;
-    margin: 0 auto;
-    max-width: 480px;
-    font-weight: 400;
-    padding: 0;
-    font-size: 0.8rem;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 480px;
+  font-weight: 400;
+  padding: 0;
+  font-size: 0.8rem;
 }
 
 ul > li {
-    border: 1px solid rgba(228, 198, 198, 0.667);
-    background-color: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(10px) saturate(180%) contrast(220%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
-    border-radius: 3em;
-    margin: 1.25em;
-    transition: 0.2s ease-in-out;
-    padding: 0.15rem;
+  border: 1px solid rgba(228, 198, 198, 0.667);
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
+  border-radius: 3em;
+  margin: 1.25em;
+  transition: 0.2s ease-in-out;
+  padding: 0.15rem;
 }
 
 li img {
-    width: 40px;
+  width: 40px;
 }
 
 .paper {
-    width: 80px;
+  width: 80px;
 }
 
 @media (any-hover: hover) {
-    li:hover {
-        transform: scale(1.01);
-    }
+  li:hover {
+    transform: scale(1.01);
+  }
 }
 
 ul > li > a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.5em;
-    padding: 0.5em 1em 0.5em 1em;
-    color: var(--color);
-    text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
+  color: var(--color);
+  text-decoration: none;
 }
 
 li > a:active {
-    color: #000;
+  color: #000;
 }
