@@ -15,16 +15,15 @@ html {
   height: 100%;
   overflow-x: hidden;
   font-family: Iosevka;
-  scroll-behavior: smooth;
-  min-height: 100vh;
+  scroll-behavior: auto;
 }
 
 body {
   background-image: url('images/pexel-j-w.jpg');
   background-size: cover;
-  background-position: center center;
+  /* background-position: left; */
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 main {
