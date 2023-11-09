@@ -15,7 +15,7 @@ html {
   height: 100%;
   overflow-x: hidden;
   font-family: Iosevka;
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 main {
@@ -61,16 +61,18 @@ nav img {
   width: 60px;
   height: 26px;
 }
+
 .reaper {
   width: 30px;
   height: 31px;
 }
+
 .geogebra {
   width: 34px;
   height: 34px;
 }
 
-header > img {
+header>img {
   margin-top: 1em;
   width: 5.5rem;
   border-radius: 50%;
@@ -79,7 +81,7 @@ header > img {
   -webkit-backdrop-filter: blur(10px) saturate(180%) contrast(220%);
 }
 
-header > h1 {
+header>h1 {
   font-size: 1.1rem;
   font-weight: 400;
   border-radius: 0.5rem;
@@ -106,7 +108,7 @@ ul {
   font-size: 0.8rem;
 }
 
-ul > li {
+ul>li {
   border: 1px solid rgba(228, 198, 198, 0.667);
   background-color: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(10px) saturate(180%) contrast(220%);
@@ -131,7 +133,7 @@ li img {
   }
 }
 
-ul > li > a {
+ul>li>a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -142,6 +144,6 @@ ul > li > a {
   text-decoration: none;
 }
 
-li > a:active {
+li>a:active {
   color: #000;
 }
